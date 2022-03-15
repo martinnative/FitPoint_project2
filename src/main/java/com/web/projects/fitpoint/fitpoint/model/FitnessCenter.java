@@ -1,4 +1,4 @@
-@Data
+
 public class FitnessCenter {
 
 }
