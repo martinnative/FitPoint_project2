@@ -1,3 +1,5 @@
+package com.web.projects.fitpoint.fitpoint.model;
+
 import com.fasterxml.jackson.annotation.JsonTypeId;
 import lombok.Data;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
