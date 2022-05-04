@@ -5,7 +5,7 @@ import lombok.Data;
 
 import javax.persistence.Entity;
 import java.util.Date;
-
+@Data
 public class Massage {
 
     private int duration;

@@ -1,7 +1,9 @@
 package com.web.projects.fitpoint.fitpoint.model;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.util.Date;
+@Data
 public class Spa {
     private int duration;
     private Date date;
