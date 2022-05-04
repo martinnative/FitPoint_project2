@@ -9,15 +9,12 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 public class Member {
-    @Id
-    @GeneratedValue
     private Long id;
     private String name;
     private String username;
     private String password;
     private int credits;
 
-    @ManyToOne(fetch = FetchType.EAGER)
     private Gym gymId;
 
     public Member(Long id, String name, String username, String password, int credits, Gym gymId) {

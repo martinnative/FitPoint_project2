@@ -3,18 +3,21 @@ package com.web.projects.fitpoint.fitpoint.Service.Implementations;
 import com.web.projects.fitpoint.fitpoint.Service.GymService;
 import com.web.projects.fitpoint.fitpoint.model.Gym;
 import com.web.projects.fitpoint.fitpoint.repository.jpa.GymRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@Component
 public class GymServiceImplementation implements GymService {
     private final GymRepository gymRepository;
 
     public GymServiceImplementation(GymRepository gymRepository) {
         this.gymRepository = gymRepository;
     }
+
 
     @Override
     public List<Gym> findAll() {

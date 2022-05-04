@@ -8,13 +8,9 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Data
-@Entity
 @NoArgsConstructor
 public class Trainer {
-    @Id
-    @GeneratedValue
     private Long id;
-
     private String name;
     private String username;
     private String password;
@@ -22,7 +18,6 @@ public class Trainer {
     private TrainerSex sex;
     private TrainerType type;
 
-    @ManyToOne
     private Gym gym;
 
     public Long getId() {
