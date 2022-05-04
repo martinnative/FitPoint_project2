@@ -1,4 +1,4 @@
-package com.web.projects.fitpoint.fitpoint.repository.jpa;
+package com.web.projects.fitpoint.fitpoint.repository;
 
 import com.web.projects.fitpoint.fitpoint.model.FitnessCenter;
 import org.springframework.data.jpa.repository.JpaRepository;

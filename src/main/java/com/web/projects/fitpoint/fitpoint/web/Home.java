@@ -1,4 +1,4 @@
-package com.web.projects.fitpoint.fitpoint.Controllers;
+package com.web.projects.fitpoint.fitpoint.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

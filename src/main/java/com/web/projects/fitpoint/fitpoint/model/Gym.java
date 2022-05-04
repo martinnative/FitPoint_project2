@@ -8,7 +8,6 @@ import javax.persistence.*;
 import java.util.List;
 
 @Data
-@NoArgsConstructor
 public class Gym {
 
     private Long id;
@@ -23,5 +22,6 @@ public class Gym {
         this.members = members;
     }
 
-
+    public Gym() {
+    }
 }

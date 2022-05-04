@@ -1,4 +1,4 @@
-package com.web.projects.fitpoint.fitpoint.repository.jpa;
+package com.web.projects.fitpoint.fitpoint.repository;
 
 import com.web.projects.fitpoint.fitpoint.model.Gym;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -10,8 +10,6 @@ import java.util.Optional;
 
 @Repository
 public interface GymRepository extends JpaRepository<Gym,Long> {
-    @Override
-    List<Gym> findAll();
 
     Optional<Gym> findByName(String name);
 
