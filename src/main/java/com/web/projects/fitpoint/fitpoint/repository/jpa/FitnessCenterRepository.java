@@ -6,10 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FitnessCenterRepository extends JpaRepository<FitnessCenter,Long>{
-    /*
-    MARTIIIIIIIIIIIIIIN!!!!!!!!!!!!!!!!!!!
-    OVA DA GO SREDIS POD ITNO
-    FALI MAVEN DEPENDENCY ZA DATA JPA
-    POZZZZZZZZZ
-     */
+
+
 }

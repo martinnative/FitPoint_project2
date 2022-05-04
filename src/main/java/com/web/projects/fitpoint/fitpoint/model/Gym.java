@@ -1,17 +1,19 @@
 package com.web.projects.fitpoint.fitpoint.model;
 
 import lombok.Data;
+import org.hibernate.annotations.Fetch;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.List;
 @Data
+@Entity
 public class Gym {
 
     @Id
     @GeneratedValue
     private Long id;
     private String name;
+    @OneToMany(fetch= FetchType.EAGER)
     private List<Member> members;
 
     public Gym(Long id, String name, List<Member> members) {
