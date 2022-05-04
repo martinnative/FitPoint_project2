@@ -14,6 +14,7 @@ public class Trainer {
     @Id
     @GeneratedValue
     private Long id;
+
     private String name;
     private String username;
     private String password;

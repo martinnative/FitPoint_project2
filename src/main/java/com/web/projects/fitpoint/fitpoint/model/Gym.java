@@ -19,7 +19,7 @@ public class Gym {
     @OneToMany(fetch= FetchType.EAGER)
     private List<Member> members;
 
-    @OneToOne
+    @ManyToOne
     private Trainer trainerName;
 
     public Gym(Long id, String name, List<Member> members) {
