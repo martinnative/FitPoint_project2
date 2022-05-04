@@ -4,8 +4,10 @@ import com.fasterxml.jackson.annotation.JsonTypeId;
 import lombok.Data;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.Entity;
+
 @Data
-//@Entity
+@Entity
 public class FitnessCenter {
 
     //@Id
