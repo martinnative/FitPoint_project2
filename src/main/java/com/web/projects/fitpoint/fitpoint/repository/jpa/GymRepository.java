@@ -8,12 +8,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface GymRepository extends JpaRepository {
+public interface GymRepository extends JpaRepository<Gym,Long> {
     @Override
     List<Gym> findAll();
-
-    @Override
-    Optional<Gym> findById(Object o);
 
     Optional<Gym> findByName(String name);
 
