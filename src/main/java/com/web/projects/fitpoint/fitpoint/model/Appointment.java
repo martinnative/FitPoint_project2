@@ -1,6 +1,7 @@
 package com.web.projects.fitpoint.fitpoint.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
